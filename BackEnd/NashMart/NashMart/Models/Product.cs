@@ -17,8 +17,10 @@ namespace NashMart.Models
         public string Description { get; set; }
         public string Image { get; set; }
         public string Price { get; set; }
-        public string status { get; set; }
+        public string Status { get; set; }
         public int Vote { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 
 }
